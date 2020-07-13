@@ -40,6 +40,8 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+    textSize(25);
+    text("Surya's Angry Birds Game", 200, 200);
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
